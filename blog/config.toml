@@ -1,0 +1,4 @@
+baseURL = "http://jonshern.com/"
+languageCode = "en-us"
+title = "Jon Shern"
+theme = "jeffprod"
