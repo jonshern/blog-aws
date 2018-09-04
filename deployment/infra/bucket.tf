@@ -19,6 +19,15 @@ resource "aws_s3_bucket" "b" {
   }
 }
 
+output "websitedomain" {
+  value = "${aws_s3_bucket.b.website_domain}"
+}
+
+output "websiteurl" {
+  value = "${aws_s3_bucket.b.website_endpoint}"
+}
+
+
 # locals {
 #   s3_origin_id = "myS3Origin"
 # }
